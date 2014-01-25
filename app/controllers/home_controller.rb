@@ -10,4 +10,8 @@ class HomeController < ApplicationController
     @instagram = Instagram.user_recent_media(@rcw, {:count => 3})
   end
 
+  def snappy
+
+  end
+
 end
