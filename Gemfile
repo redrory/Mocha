@@ -5,7 +5,7 @@ gem 'rails', '3.2.14'
 gem 'figaro'
 gem 'instagram'
 gem 'snapcat', '~> 0.2.0'
-gem 'linkedin'
+#gem 'linkedin'
 
 
 group :development do
