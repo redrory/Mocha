@@ -2,9 +2,10 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.14'
 
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
+gem 'figaro'
+gem 'instagram'
+gem 'snapcat', '~> 0.2.0'
+gem 'linkedin'
 
 
 group :development do
@@ -16,10 +17,6 @@ end
 group :production do
   gem 'pg'
 end
-
-gem 'figaro'
-gem 'instagram'
-
 
 # Gems used only for assets and not required
 # in production environments by default.

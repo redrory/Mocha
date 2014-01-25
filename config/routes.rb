@@ -5,6 +5,7 @@ Mocha::Application.routes.draw do
   root :to => 'home#show'
 
   match 'snappy', to: 'home#snappy'
+  match 'linky', to: 'home#linky'
 
   #match '/oauth/connect', to: "https://api.instagram.com/oauth/authorize/?client_id=ENV["client_id"]&redirect_uri=REDIRECT-URI&response_type=code"
 end
